@@ -1,0 +1,279 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "반환 값이 무시되었습니다. 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 5,
+                  "endLine": 15,
+                  "endColumn": 27
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6054",
+          "message": {
+            "text": "'str' 문자열이 0으로 종료되지 않을 수 있습니다."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                },
+                "region": {
+                  "startLine": 17,
+                  "startColumn": 17,
+                  "endLine": 17,
+                  "endColumn": 28
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 7,
+                            "startColumn": 10
+                          }
+                        },
+                        "message": {
+                          "text": "이 식은 'str'을(를) 0으로 종료할 수 없습니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 8,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 9,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 11,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 12,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'str'은(는) 'gets_s'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\stdio.h:316에서 선언됨)의 출력입니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'str'은(는) 'strlen'(c:\\program files (x86)\\windows kits\\10\\include\\10.0.22621.0\\ucrt\\string.h:215에서 선언됨)에 대한 입력입니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'str'은(는) 'strlen'의 SAL 주석에 의해 0으로 종료되기 위해 필요합니다."
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/3-2_20202663김동현_창의실무프로젝트/3-2/3-2.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8d157cf8a134f769604f5398746d41f077d2d31ccf22a689e6c732b74a0f9cb6"
+          }
+        }
+      ]
+    }
+  ]
+}
