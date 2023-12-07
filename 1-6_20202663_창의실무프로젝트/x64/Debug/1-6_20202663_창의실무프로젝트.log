@@ -1,0 +1,5 @@
+﻿  1-6.cpp
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\1-6_20202663_창의실무프로젝트\1-6.cpp(3,17): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'void'입니다.
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\1-6_20202663_창의실무프로젝트\1-6.cpp(6,5): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  1-6_20202663_창의실무프로젝트.vcxproj -> C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\x64\Debug\1-6_20202663_창의실무프로젝트.exe
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\1-6_20202663_창의실무프로젝트\1-6.cpp(6): warning C6031: 반환 값이 무시되었습니다. 'scanf'.

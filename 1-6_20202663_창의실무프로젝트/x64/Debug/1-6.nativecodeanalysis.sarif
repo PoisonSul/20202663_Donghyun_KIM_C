@@ -1,0 +1,65 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "반환 값이 무시되었습니다. 'scanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/1-6_20202663_창의실무프로젝트/1-6.cpp"
+                },
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 5,
+                  "endLine": 6,
+                  "endColumn": 18
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/1-6_20202663_창의실무프로젝트/1-6.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d6c6f3c9ce29e6b92c92e0e83a7fc3f7960f686aafdd871f4c39cf012ec581cf"
+          }
+        }
+      ]
+    }
+  ]
+}
