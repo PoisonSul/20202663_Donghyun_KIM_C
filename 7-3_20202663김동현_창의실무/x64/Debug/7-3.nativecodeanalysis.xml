@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\7-3_20202663김동현_창의실무\</FILEPATH>
+      <FILENAME>7-3.cpp</FILENAME>
+      <LINE>25</LINE>
+      <COLUMN>20</COLUMN>
+    </SFA>
+    <DEFECTCODE>28183</DEFECTCODE>
+    <DESCRIPTION>'thread1'은(는) '0'일 수 있으며 '_beginthreadex()`19'에 있는 값의 복사본입니다.</DESCRIPTION>
+    <FUNCTION>main</FUNCTION>
+    <DECORATED>main</DECORATED>
+    <FUNCLINE>17</FUNCLINE>
+    <PATH>
+      <SFA>
+        <FILEPATH>c:\users\김동현\desktop\20202663김동현_창의실무프로젝트\7-3_20202663김동현_창의실무\</FILEPATH>
+        <FILENAME>7-3.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\김동현\desktop\20202663김동현_창의실무프로젝트\7-3_20202663김동현_창의실무\</FILEPATH>
+        <FILENAME>7-3.cpp</FILENAME>
+        <LINE>19</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\김동현\desktop\20202663김동현_창의실무프로젝트\7-3_20202663김동현_창의실무\</FILEPATH>
+        <FILENAME>7-3.cpp</FILENAME>
+        <LINE>20</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>c:\users\김동현\desktop\20202663김동현_창의실무프로젝트\7-3_20202663김동현_창의실무\</FILEPATH>
+        <FILENAME>7-3.cpp</FILENAME>
+        <LINE>25</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
