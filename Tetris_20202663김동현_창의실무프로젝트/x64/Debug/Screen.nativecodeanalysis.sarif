@@ -1,0 +1,699 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6385",
+          "message": {
+            "text": "'SecPicture[y]'에서 잘못된 데이터를 읽는 중입니다."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                },
+                "region": {
+                  "startLine": 115,
+                  "startColumn": 9,
+                  "endLine": 115,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "InGameFrame",
+                  "decoratedName": "InGameFrame",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 7
+                          }
+                        },
+                        "message": {
+                          "text": "'SecPicture'이(가) 216바이트 배열입니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 시작, ('picture[y][x]==0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('picture[y][x]==5'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 시작, ('picture[y][x]==0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 분기 건너뛰기, ('picture[y][x]==5'이(가) false라고 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 107,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 5
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 97,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 계속, ('x<20' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 계속, ('y<9' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 112,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('y<3' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 13
+                          }
+                        },
+                        "message": {
+                          "text": "'x'이(가) 18과(와) 같습니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 113,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "이 루프 시작, ('x>=0' 가정)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 114,
+                            "startColumn": 5
+                          }
+                        },
+                        "message": {
+                          "text": "'x'은(는) 'GotoXY'(c:\\users\\김동현\\desktop\\20202663김동현_창의실무프로젝트\\tetris_20202663김동현_창의실무프로젝트\\consolecursor.h:6에서 선언됨)에 대한 In/Out 인수입니다."
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+                          },
+                          "region": {
+                            "startLine": 115,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "'SecPicture[y][18]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 17 사이임)"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/김동현/Desktop/20202663김동현_창의실무프로젝트/Tetris_20202663김동현_창의실무프로젝트/Screen.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "dcad037d80a7dc90bc49aafac2a0dddfc73e000aef389ca4b0f40b4fd5907af9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/screen.h"
+          },
+          "hashes": {
+            "sha-256": "a146dd94d54d45677bfcf468c31fcd15a51407cccac5fe0f4c2be88dc800a6ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/blocks.h"
+          },
+          "hashes": {
+            "sha-256": "ba2dd82afcb171a1f510529f3336b7e0967a0bc2139afc1f7383086276ffe8ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/controller.h"
+          },
+          "hashes": {
+            "sha-256": "16d4c28a741d2d883b92fee17ffb68421d4af5884cf7ab640af022397419ee45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/consolecursor.h"
+          },
+          "hashes": {
+            "sha-256": "4f144b639bd7763ef291752b7f2491061f7a79597f234cb896ff931e8c07b123"
+          }
+        }
+      ]
+    }
+  ]
+}

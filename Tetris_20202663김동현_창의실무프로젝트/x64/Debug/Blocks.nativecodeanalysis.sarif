@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/blocks.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "71ead856f5e5f91223d47095284ca753e207c9ecd65fd74a389880648ef43db8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/blocks.h"
+          },
+          "hashes": {
+            "sha-256": "ba2dd82afcb171a1f510529f3336b7e0967a0bc2139afc1f7383086276ffe8ae"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/tetris_20202663김동현_창의실무프로젝트/controller.h"
+          },
+          "hashes": {
+            "sha-256": "16d4c28a741d2d883b92fee17ffb68421d4af5884cf7ab640af022397419ee45"
+          }
+        }
+      ]
+    }
+  ]
+}

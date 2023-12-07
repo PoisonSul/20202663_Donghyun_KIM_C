@@ -1,0 +1,15 @@
+﻿  AddBlockColor.c
+  Blocks.c
+  ConsoleCursor.c
+  Controller.c
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Controller.c(13,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Controller.c(148,8): warning C4101: 'Pos' :참조되지 않은 지역 변수입니다.
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Controller.c(228,8): warning C4244: '함수': 'time_t'에서 'unsigned int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  main.c
+  Screen.c
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Screen.c(206,52): warning C4553: '==': 식의 결과가 사용되지 않습니다. '='을(를) 의도했습니까?
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Screen.c(246,7): warning C4013: 'addCurrentBlockColor'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  C/C++ 코드 분석을 실행하고 있습니다...
+  코드를 생성하고 있습니다...
+  Tetris_20202663김동현_창의실무프로젝트.vcxproj -> C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\x64\Debug\Tetris_20202663김동현_창의실무프로젝트.exe
+C:\Users\김동현\Desktop\20202663김동현_창의실무프로젝트\Tetris_20202663김동현_창의실무프로젝트\Screen.c(115): warning C6385: 'SecPicture[y]'에서 잘못된 데이터를 읽는 중입니다.
