@@ -1,0 +1,35 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32825.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/김동현/desktop/20202663김동현_창의실무프로젝트/2-5_20202663김동현_창의실무프로젝트/02 - 05/02 - 05.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "0ba255a247743b0a5898d468d0ab0e56f48275d21449c45aded88f13c0850bc5"
+          }
+        }
+      ]
+    }
+  ]
+}
